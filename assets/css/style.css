@@ -1,0 +1,400 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#banner {
+    width: 100%;
+    background-color: #e7e7e7;
+    padding: 10px;
+}
+
+#name1 {
+    background-color: #4aaaa5;
+    color: #e7e7e7;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    margin-left: 464px;
+    position: relative;
+    top: 10px;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: #e7e7e7;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    margin-left: 304px;
+    position: relative;
+    top: 10px;
+}
+
+#list1 {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    right: 474px;
+    top: 52px;  
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    right: 318px;
+    top: 52px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: darkslategrey;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.container {
+    background-image: url(../images/prism.png);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+.mainbox {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 25px 300px 30px 300px;
+    display: inline-block;
+}
+.portfoliobox {
+        background-color: #ffffff;
+        width: 40%;
+        margin: 25px 300px 30px 300px;
+        display: inline-block;
+    
+}
+header {
+    float: left;
+    color: #4aaaa5;
+    border-bottom-color: #e7e7e7;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+#bio-pic {
+    clear: both;
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align:left;
+}
+
+ p {
+    text-align:left;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 20px;
+    color: #777777;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .footer {
+     background-color:#666666;
+     border-top-color: #4aaaa5;
+     border-top-style: solid;
+     border-top-width: 8px;
+     text-align: center;
+     font-size: 10px;
+     padding: 20px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     flex-shrink: 0;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+ }
+
+ .inputbox {
+     text-align: left;
+     margin-left: 20px;
+     width: 80%;
+     margin-top: 10px;
+     color: #777777;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .inputmessage {
+    text-align: left;
+    margin-left: 20px;
+    width: 80%;
+    margin-top: 20px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .submitbutton {
+     text-align: left;
+     float: left;
+     margin-left: 20px;
+     background-color: #4aaaa5;
+     color: white;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 25px;
+     padding-right: 25px;
+     margin-bottom: 5px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .form-control {
+     text-align: left;
+     width: 95%;
+     height: 25px;
+ }
+ .form-control1 {
+     text-align:left;
+     width: 95%;
+     height: 200px;
+ }
+.image {
+    float: left;
+    margin: 20px;
+    clear: right;
+}
+img {
+    width: 200px;
+    height: 150px;
+}
+
+.caption {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #e7e7e7;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.caption:hover {
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 980px){
+    .mainbox {
+        width: 550px;
+        float: left;
+        margin-left: 50px;
+    }
+    .portfoliobox {
+        width: 600px;
+        float: left;
+        margin-left: 50px;
+    }
+    p {
+        font-size: 12px;
+        line-height: 26px;
+    }
+    #name1 {
+        font-size: 20px;
+        margin-left: 42px;
+        position: relative;
+        top: 10px;
+    }
+    
+    #name {
+        font-size: 20px;
+        margin-left: 38px;
+        position: relative;
+        top: 10px;
+    }
+    ul {
+        position: relative;
+        right: 357px;
+        top: 28px;
+    }
+    #list1 {
+       font-size: 10px;
+    position: relative;
+    right: 305px;
+    top: 26px;
+    }
+    
+    .footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        text-align: center;
+        height: 100%;
+    }
+    .mainbox {
+        width: 500px;
+        margin-left: 50px;
+    }
+    .portfoliobox {
+        width: 500px;
+        margin-left: 50px;
+    }
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #name1 {
+        font-size: 20px;
+        margin-left: 42px;
+        position: relative;
+        top: 10px;
+    }
+    
+    #name {
+        font-size: 16px;
+        margin-left: 38px;
+        position: relative;
+        top: 10px;
+    }
+    ul {
+        position: relative;
+        right: 193px;
+        top: 28px;
+    }
+    li a {
+        font-size: 14px;
+    }
+    #list1 {
+       font-size: 10px;
+    position: relative;
+    right: 191px;
+    top: 26px;
+    }
+    header {
+        font-size: 26px;
+        padding: 15px;
+        width: 425px;
+    }
+    
+    .footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .container {
+    text-align: center;
+    height: 100%;
+    margin-top: 70px;
+    }
+    .mainbox {
+        clear: both;
+        margin-left: 161px;
+        width: 50%;
+    }
+    .portfoliobox {
+        clear: both;
+        margin-left: 161px;
+        width: 50%;
+        text-align: center;
+    }
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #name1 {
+        top: 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        display: block;
+        margin: 0px;
+    }
+    #banner {
+        margin-left: 0px;
+        padding: 0px;
+    }
+    #name {
+        top: 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        display: block;
+        margin: 0px;
+    }
+    ul {
+        position: relative;
+        right: 199px;
+        top: 60px;
+    }
+    li a {
+        font-size: 14px;
+    }
+    #list1 {
+        font-size: 10px;
+        position: relative;
+        right: 191px;
+        top: 60px;
+    }
+    header {
+        font-size: 16px;
+        padding: 10px;
+        width: 80%;
+        }
+    
+    .footer {
+        width: 100%;
+    }
+    .image {
+        margin-bottom: -40px;
+        margin-left: 60px;
+    }
+}
